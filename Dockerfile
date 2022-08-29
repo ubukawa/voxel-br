@@ -11,6 +11,7 @@ ruby \
 sqlite3 \
 automake \
 cmake \
+g++ \
 && git clone https://github.com/mapbox/tippecanoe \
 && cd tippecanoe \
 && make -j3 LDFLAGS="-latomic" \
