@@ -9,7 +9,9 @@ libproj-dev \
 pdal \
 ruby \
 sqlite3 \
-&& git cline https://github.com/mapbox/tippecanoe \
+automake \
+cmake \
+&& git clone https://github.com/mapbox/tippecanoe \
 && cd tippecanoe \
 && make -j3 LDFLAGS="-latomic" \
 && make install \
