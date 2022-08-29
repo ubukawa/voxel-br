@@ -17,4 +17,3 @@ g++ \
 && make -j3 LDFLAGS="-latomic" \
 && make install \
 && cd .. \
-&& npm install -g @unvt/charites \
