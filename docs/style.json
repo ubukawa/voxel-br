@@ -27,19 +27,7 @@
           "get",
           "color"
         ],
-        "fill-extrusion-opacity": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          10,
-          0,
-          12,
-          1
-        ],
+        "fill-extrusion-opacity": 1,
         "fill-extrusion-height": [
           "+",
           [
