@@ -13,6 +13,8 @@ Under the src folder, the las data was developed from the images in https://gith
 
 
 # References
-https://github.com/optgeo/kid-c
+https://github.com/optgeo/kid-c  
+
+https://qiita.com/T-ubu/items/99bba9e3454fdd7a87a9
 
 
