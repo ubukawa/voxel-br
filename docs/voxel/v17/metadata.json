@@ -1,0 +1,14 @@
+{
+"name": "output-17.mbtiles",
+"description": "output-17.mbtiles",
+"version": "2",
+"minzoom": "10",
+"maxzoom": "17",
+"center": "-91.993055,46.842346,17",
+"bounds": "-91.996765,46.841407,-91.991272,46.843286",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v1.36.0",
+"generator_options": "tippecanoe '--maximum-zoom=17' '--minimum-zoom=10' '--projection=EPSG:3857' --force --output output-17.mbtiles --no-tile-size-limit --no-feature-limit; tile-join --force '--output-to-directory=docs/voxel/v17' --no-tile-size-limit --no-tile-compression output-17.mbtiles",
+"json": "{\"vector_layers\": [ { \"id\": \"voxel\", \"description\": \"\", \"minzoom\": 17, \"maxzoom\": 17, \"fields\": {\"color\": \"String\", \"h\": \"Number\", \"spacing\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"voxel\",\"count\": 1858,\"geometry\": \"Polygon\",\"attributeCount\": 3,\"attributes\": [{\"attribute\": \"color\",\"count\": 1000,\"type\": \"string\",\"values\": [\"#101b13\",\"#111a1a\",\"#111c1a\",\"#111d14\",\"#112313\",\"#121f15\",\"#132017\",\"#132018\",\"#132117\",\"#132313\",\"#1324f\",\"#141f19\",\"#142319\",\"#14251a\",\"#151f1c\",\"#152517\",\"#162119\",\"#16231c\",\"#162320\",\"#16251b\",\"#162a1b\",\"#162c17\",\"#171b1b\",\"#17251c\",\"#17261d\",\"#172625\",\"#172c1a\",\"#182318\",\"#18231d\",\"#18231f\",\"#18271b\",\"#182d1b\",\"#183118\",\"#191f29\",\"#19241d\",\"#192614\",\"#192619\",\"#19261a\",\"#19273e\",\"#192816\",\"#19281c\",\"#192821\",\"#192b13\",\"#192b1a\",\"#192c1b\",\"#193015\",\"#193016\",\"#1a2522\",\"#1a2821\",\"#1a282f\",\"#1a2840\",\"#1a2a1f\",\"#1a2d1f\",\"#1b2526\",\"#1b252c\",\"#1b253b\",\"#1b253e\",\"#1b2646\",\"#1b2722\",\"#1b2725\",\"#1b2b47\",\"#1b2e19\",\"#1b331b\",\"#1b3518\",\"#1b351b\",\"#1c2945\",\"#1c2b1d\",\"#1c2d1c\",\"#1c2e28\",\"#1c2f1d\",\"#1c2f22\",\"#1c3120\",\"#1c3415\",\"#1c3417\",\"#1d2747\",\"#1d281e\",\"#1d2b1b\",\"#1d3023\",\"#1d3522\",\"#1d3b18\",\"#1e2445\",\"#1e294e\",\"#1e2c1f\",\"#1e2c4d\",\"#1e2d24\",\"#1e301a\",\"#1e3121\",\"#1e321c\",\"#1e321e\",\"#1e351d\",\"#1e3520\",\"#1f1e27\",\"#1f2939\",\"#1f2c21\",\"#1f2c4b\",\"#1f2f1f\",\"#1f311c\",\"#1f321e\",\"#1f331b\",\"#1f351e\"]},{\"attribute\": \"h\",\"count\": 5,\"type\": \"number\",\"values\": [152,156,160,164,168],\"min\": 152,\"max\": 168},{\"attribute\": \"spacing\",\"count\": 1,\"type\": \"number\",\"values\": [4],\"min\": 4,\"max\": 4}]}]}}"
+}
